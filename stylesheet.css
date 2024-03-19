@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(144, 250, 241);
+}
+
+#time{
+    position: relative;
+    margin: auto;
+    height: 50vw;
+    width: 40vw;
+    background: url(pngegg.png) no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    filter: drop-shadow(rgb(3, 3, 3) 0.2rem 0rem 7px);
+}
+
+
+#hour{
+    position: absolute;
+    background: rgb(24, 23, 23);
+    border-radius: 10px;
+    width: 1.5%;
+    height: 30%;
+    top: 20.2%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+
+
+#minute{
+    position: absolute;
+    background: rgb(46, 45, 45);
+    border-radius: 10px;
+    width: 1%;
+    height: 33%;
+    top: 17.2%;
+    left: 49.75%;
+    transform-origin: bottom;
+}
+
+
+#second{
+    position: absolute;
+    background: rgb(94, 92, 92);
+    border-radius: 10px;
+    width: 0.8%;
+    height: 33%;
+    top: 17.2%;
+    left: 49.75%;
+    transform-origin: bottom;
+}
